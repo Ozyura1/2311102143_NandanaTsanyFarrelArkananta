@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Local Hide</title>
+    <script type="text/javascript" src="jquery-4.0.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#hide").click(function(){
+            $("p").hide();
+        });
+        $("#show").click(function(){
+            $("p").show();
+        });
+        });
+    </script>
+</head>
+<body>
+    
+    <p>if you click on the "Hide" button, i will disappear.</p>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+
+</body>
+</html>
